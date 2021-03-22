@@ -1,0 +1,216 @@
+::root {
+  --blackfont: #333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  align-items: center;
+  flex-basis: 70%;
+
+  .Senna-Logo {
+    flex-basis: 30%;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .Nav-container .Navegacion {
+    display: flex;
+    flex-direction: row;
+
+    li {
+      list-style: none;
+      padding: 0px 30px;
+
+      a {
+        text-decoration: none;
+        color: var(--blackfont);
+        text-transform: uppercase;
+        font-weight: 500;
+
+        &::after {
+          width: 0;
+          content: "";
+          display: block;
+          border-bottom: 2px solid red;
+          transition: width 250ms;
+        }
+
+        &:hover:after {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.Head-Container {
+  text-align: center;
+
+  h1 {
+    font-size: 2.5em;
+    font-weight: 300;
+    padding: 60px 0px;
+  }
+
+  img {
+    border-radius: 10px;
+  }
+
+  h2 {
+    padding: 30px 0px;
+    font-weight: 300;
+  }
+}
+
+.About {
+  padding: 60px 0px;
+
+  h2 {
+    padding: 30px 0px;
+    font-weight: 400;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  p {
+    line-height: 2.2em;
+    padding: 0px 20px;
+  }
+}
+
+.Logros {
+  display: flex;
+  justify-content: space-around;
+  padding: 120px 0px;
+
+  .Logros-item {
+    text-align: center;
+
+    img {
+      height: 90px;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: 400;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+  }
+}
+
+.Senna-landscape {
+  position: relative;
+  padding: 30px 0px;
+
+  img {
+    width: 100%;
+    filter: grayscale(1);
+  }
+
+  .Senna-quotebottom {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    padding: 60px 0px;
+  }
+
+  .Senna-quotetop {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    padding: 60px 0px;
+  }
+}
+
+.Senna-quotebottom,
+.Senna-quotetop {
+  color: #ccc;
+  font-size: 1.5em;
+  width: 50%;
+}
+
+.Senna-quotebottom {
+  font-style: italic;
+}
+// EQUIPOS
+.Equipos {
+  display: grid;
+}
+.Team-Logo {
+  width: 250px;
+}
+.Team-Pic {
+  width: 600px;
+}
+.Toleman {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  .Toleman-Descripcion,
+  .Toleman-Imagenes {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+// INSTITUTOS
+.Instituto-Wrapper,
+.Instituto-Text {
+  padding: 20px;
+  .Instituto-Tittle {
+    padding: 40px;
+    text-align: center;
+    font-size: 1.6em;
+  }
+  .Instituto-Text {
+    line-height: 2em;
+    word-spacing: 3px;
+    text-align: center;
+  }
+  .Viviana {
+    padding: 40px;
+    text-align: center;
+    .Viviana-Pic {
+      width: 100%;
+      filter: grayscale(1);
+    }
+    .Viviana-Description {
+      font-style: italic;
+    }
+  }
+  .VideoInstituto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    p {
+      font-style: italic;
+    }
+  }
+}
+
+footer {
+  padding: 30px;
+  position: relative;
+  text-align: center;
+  color: #333;
+  font-size: 1.2em;
+  background: #f0f0f0;
+}
