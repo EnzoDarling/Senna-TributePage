@@ -16,7 +16,7 @@ Historia de cada equipo donde debutó Ayrton a lo largo de su carrera
 
 Un vistazo de la misión del Instituto Ayrton Senna
 
-** Preprocesadores usados **
+**Preprocesadores usados**
 
 - Sass
 - Pug
@@ -26,6 +26,6 @@ Un vistazo de la misión del Instituto Ayrton Senna
     - \_logros
     - \_SennaLS
 
-** Plugin Carousell **
+**Plugin Carousell**
 
 - Owl Carousell
