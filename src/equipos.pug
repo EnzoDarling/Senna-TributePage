@@ -12,32 +12,35 @@ html(lang="en")
   body
     include includes/_header.pug
   section.Equipos
-    .Toleman
+    section.Toleman
       img.Team-Logo(style src="img/toleman-logo-1.svg", alt="")
-      .Toleman-Imagenes
-        img.Team-Pic(src="img/toleman.jpg", alt="")
-      .Toleman-Descripcion
-        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolore assumenda consequuntur illo accusamus impedit obcaecati quam debitis, ratione doloremque soluta dicta dolores nobis corporis illum esse temporibus magnam id?
-    .Lotus
-      .Lotus-Imagenes
-        img.Team-Logo(style src="img/lotuslogo.svg", alt="")
-        img.Team-Pic(src="img/lotus1.jpg", alt="")
-        img.Team-Pic(src="img/lotus2.jpg", alt="")
-      .Lotus-Descripcion
-        p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolore assumenda consequuntur illo accusamus impedit obcaecati quam debitis, ratione doloremque soluta dicta dolores nobis corporis illum esse temporibus magnam id?
+      section.Teams-Wrapper
+        figure.Toleman-Imagenes
+          img.Team-Pic(src="img/toleman.jpg", alt="Toleman Car Picture")
+        section.Toleman-Descripcion
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolore assumenda consequuntur illo accusamus impedit obcaecati quam debitis, ratione doloremque soluta dicta dolores nobis corporis illum esse temporibus magnam id?
+    section.Lotus
+        img.Team-Logo(style src="img/lotuslogo.svg", alt="Lotus Logo SVG")
+      section.Teams-Wrapper
+        img.Team-Pic(src="img/lotus1.jpg", alt="Lotus Car First")
+        img.Team-Pic(src="img/lotus2.jpg", alt="Lotus Car Sec")
+        section.Lotus-Descripcion
+          p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolore assumenda consequuntur illo accusamus impedit obcaecati quam debitis, ratione doloremque soluta dicta dolores nobis corporis illum esse temporibus magnam id?
     .Mclaren
       .Mclaren-Imagenes
         img.Team-Logo(style src="img/mclarenlogo.svg", alt="")
-        img.Team-Pic(src="img/mclaren1.jpg", alt="")
-        img.Team-Pic(src="img/mclaren2.jpg", alt="")
-        img.Team-Pic(src="img/mclaren3.jpg", alt="")
-        img.Team-Pic(src="img/mclaren4.jpg", alt="")
-        img.Team-Pic(src="img/mclaren5.jpg", alt="")
+        img.Team-Pic(src="img/mclaren1.jpg", alt="Mclaren Car First")
+        img.Team-Pic(src="img/mclaren2.jpg", alt="Mclaren Car Second")
+        img.Team-Pic(src="img/mclaren3.jpg", alt="Mclaren Car Third")
+        img.Team-Pic(src="img/mclaren4.jpg", alt="Mclaren Car Fourth")
+        img.Team-Pic(src="img/mclaren5.jpg", alt="Mclaren Car Fifth")
       .Mclaren-Descripcion
         p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolore assumenda consequuntur illo accusamus impedit obcaecati quam debitis, ratione doloremque soluta dicta dolores nobis corporis illum esse temporibus magnam id?
     .Williams
       .Williams-Imagenes
-        img.Team-Logo(style src="img/williamslogo.svg", alt="")
-        img.Team-Pic(src="img/williams.jpg", alt="")
+        img.Team-Logo(style src="img/williamslogo.svg", alt="Williams Logo SVG")
+        img.Team-Pic(src="img/williams.jpg", alt="Williams Car First")
       .Toleman-Descripcion
         p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem dolore assumenda consequuntur illo accusamus impedit obcaecati quam debitis, ratione doloremque soluta dicta dolores nobis corporis illum esse temporibus magnam id?
+  footer
+    p Ayrton Senna P&aacute;gina Tributo | Enzo Aguiar 2021

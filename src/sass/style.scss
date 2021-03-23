@@ -159,11 +159,13 @@ header {
 }
 .Team-Pic {
   width: 600px;
+  border-radius: 10px;
 }
-.Toleman {
+.Teams-Wrapper {
   display: flex;
   padding: 20px;
   flex-direction: row;
+  flex-basis: 50%;
   .Toleman-Descripcion,
   .Toleman-Imagenes {
     display: flex;
@@ -210,7 +212,7 @@ footer {
   padding: 30px;
   position: relative;
   text-align: center;
-  color: #333;
+  color: #fcfcfc;
   font-size: 1.2em;
-  background: #f0f0f0;
+  background: rgba(204, 34, 41, 0.8);
 }
