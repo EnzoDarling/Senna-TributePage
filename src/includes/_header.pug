@@ -1,14 +1,19 @@
 header
-  .Senna-Logo
-    a(href="index.html") 
-      img(src='img/ayrton-senna.svg' alt='')
-  .Nav-container
-    nav.Navegacion
-      li
-        a(href='index.html') Inicio
-      li
-        a(href='equipos.html') Equipos
-      li
-        a(href='instituto.html') Instituto
-      li
-        a(href='onboard.html') Onboards
+div.nav-menu
+  input#toggle(type="checkbox")
+  label.navbar-label(for="toggle") 
+  nav.nav-responsive 
+    a.nav-link(href="index.html") Inicio 
+    a.nav-link(href="equipos.html") Equipos 
+    a.nav-link(href="instituto.html") Instituto
+    a.nav-link(href="onboard.html") Onboards
+.Nav-container
+  nav.Navegacion
+    li
+      a(href='index.html') Inicio
+    li
+      a(href='equipos.html') Equipos
+    li
+      a(href='instituto.html') Instituto
+    li
+      a(href='onboard.html') Onboards
